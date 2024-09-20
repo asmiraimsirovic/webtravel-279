@@ -1,0 +1,7 @@
+Podaci za prijavu(korisnik) moguća i registracija:
+email: asmira@gmail.com
+password: 123
+
+Podaci za prijavu(admin):
+email: admin@example.com
+password: adminpass

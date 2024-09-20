@@ -1,0 +1,38 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  background-image: url('/public/travel.jpg');
+  background-size: cover; /* Pozadina će prekriti cijeli ekran */
+  background-position: center; /* Centriranje pozadine */
+  background-repeat: no-repeat; /* Sprečava ponavljanje slike */
+  height: 100%; /* Postavljanje visine da prekriva cijeli ekran */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Visina će biti 100% wrapper-a */
+}
+
+.register-card {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.input-wrapper {
+  padding-bottom: 10px;
+}
+
+             

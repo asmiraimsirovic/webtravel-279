@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('/public/travel.jpg');
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Visina cijelog viewport-a */
+  background-size: cover; /* Pozadina će prekriti cijeli ekran */
+  background-position: center; /* Centriranje pozadine */
+  background-repeat: no-repeat; /* Sprečava ponavljanje slike */
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.login-input {
+  margin-bottom: 15px;
+}
+
+.login-button {
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
